@@ -1,10 +1,6 @@
 import React from "react";
-interface Props {
-  children: React.ReactNode;
-  title: string | React.ReactNode;
-  description?: string | React.ReactNode;
-}
-export const Section = ({ children, title, description }: Props) => {
+
+export const Section = ({ children, title, description }) => {
   return (
     <section className="pt-16">
       <div className="mb-8 text-center">

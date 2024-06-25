@@ -1,10 +1,10 @@
 import { Section } from "@/components/Section";
 import React from "react";
-import { Step, StepItem } from "@/components/StepItem";
+import { StepItem } from "@/components/StepItem";
 import { Container } from "@/components/Container";
 
 export const Slack = () => {
-  const steps: Step[] = [
+  const steps = [
     {
       text: "Instala Slack en tu ordenador desde aqui",
       imgUrl: "",

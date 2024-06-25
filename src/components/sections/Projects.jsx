@@ -1,10 +1,10 @@
 import React from "react";
 import { Section } from "@/components/Section";
-import { Project, ProjectItem } from "@/components/ProjectItem";
+import { ProjectItem } from "@/components/ProjectItem";
 import { Container } from "@/components/Container";
 
 export const Projects = () => {
-  const projects: Project[] = [
+  const projects = [
     {
       name: "Helpet",
       description:
