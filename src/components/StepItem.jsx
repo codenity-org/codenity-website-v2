@@ -1,15 +1,6 @@
 import React from "react";
 
-export interface Step {
-  text: string | React.ReactNode;
-  imgUrl: string;
-}
-
-interface Props extends Step {
-  index: number;
-}
-
-export const StepItem = ({ index, text, imgUrl }: Props) => {
+export const StepItem = ({ index, text, imgUrl }) => {
   return (
     <div className="w-[292px] col-lg-4 col-md-6 mb-5">
       <div className="flex w-full">

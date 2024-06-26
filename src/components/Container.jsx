@@ -1,8 +1,5 @@
 import React from "react";
 
-interface Props {
-  children: React.ReactNode;
-}
-export const Container = ({ children }: Props) => {
+export const Container = ({ children }) => {
   return <div className="container md:max-w-[1140px] m-auto">{children}</div>;
 };
